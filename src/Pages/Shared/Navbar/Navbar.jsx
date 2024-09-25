@@ -3,14 +3,14 @@ import React from 'react';
 const Navbar = () => {
 
     const NavOptions = <>
-        <li><a>Item 1</a></li>
-        <li><a>Item 2</a></li>
-        <li><a>Item 3</a></li>
-        <li><a>Item 4</a></li>
+        <li><a>HOME</a></li>
+        <li><a>CONTACT US</a></li>
+        <li><a>DASHBOARD</a></li>
+        <li><a>OUR MENU</a></li>
     </>
 
     return (
-        <div className="navbar  fixed z-10 bg-black bg-opacity-30 text-[#FFF] max-w-[1360px] mx-auto w-11/12">
+        <div className="navbar  fixed z-10 bg-[#000] bg-opacity-45 text-[#FFF]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -34,8 +34,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className='flex  flex-col items-center uppercase font-semibold'>
-                    <a className="text-xl">Bistro Boss</a>
-                    <span className=' tracking-widest '>restaurant</span>
+                    <a className="text-base md:text-2xl text-yellow-400">Bistro Boss</a>
+                    <span className='text-sm md:text-xl md:font-light tracking-widest '>restaurant</span>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
@@ -44,7 +44,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-active btn-neutral">Button</a>
+                <a className="btn btn-active btn-neutral">Get Started</a>
             </div>
         </div>
     );
