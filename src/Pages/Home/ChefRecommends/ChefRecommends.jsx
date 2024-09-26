@@ -19,7 +19,7 @@ const ChefRecommends = () => {
                 subHeading={"Should Try"}
                 heading={"CHEF RECOMMENDS"}
             ></SectionTitle>
-            <div className='grid grid-cols-3 gap-4 space-y-2'>
+            <div className='grid md:grid-cols-3 gap-10 space-y-2'>
                 {
                     Menu.map(card => <ChefRecommendCard
                         card={card}

@@ -1,4 +1,4 @@
-import React from 'react';
+import logo from '../../../assets/logo.png'
 
 const Navbar = () => {
 
@@ -33,9 +33,12 @@ const Navbar = () => {
                         {NavOptions}
                     </ul>
                 </div>
-                <div className='flex  flex-col items-center uppercase font-semibold'>
-                    <a className="text-base md:text-2xl text-yellow-400">Bistro Boss</a>
-                    <span className='text-sm md:text-xl md:font-light tracking-widest '>restaurant</span>
+                <div className='flex  items-center gap-2 uppercase font-semibold'>
+                    <img className='w-16' src={logo} alt="" />
+                    <div className='flex flex-col'>
+                        <a className="text-base md:text-2xl text-yellow-400">Bistro Boss</a>
+                        <span className='text-sm md:text-xl md:font-light tracking-widest '>restaurant</span>
+                    </div>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
