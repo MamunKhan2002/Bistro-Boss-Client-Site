@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper/modules';
+// import { Pagination } from 'swiper/modules';
+import { FreeMode, Pagination } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -23,11 +24,11 @@ const Category = () => {
             <Swiper
                 slidesPerView={4}
                 spaceBetween={30}
-                centeredSlides={true}
+                // centeredSlides={true}
                 pagination={{
                     clickable: true,
                 }}
-                modules={[Pagination]}
+                modules={[FreeMode, Pagination]}
                 className="mySwiper"
             >
                 <SwiperSlide>
