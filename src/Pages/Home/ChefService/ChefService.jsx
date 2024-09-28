@@ -2,7 +2,7 @@ import image1 from '../../../assets/home/chef-service.jpg'
 
 const ChefService = () => {
     return (
-        <div className='max-w-[1320px] w-10/12 mx-auto flex items-center bg-cover bg-center h-96  relative text-center'
+        <div className=' flex items-center bg-cover bg-center h-96  relative text-center'
             style={{
 
                 backgroundImage: `url(${image1})`,

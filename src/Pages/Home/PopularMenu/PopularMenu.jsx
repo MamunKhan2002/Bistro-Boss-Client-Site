@@ -25,7 +25,7 @@ const PopularMenu = () => {
     
 
     return (
-        <section className="my-4 md:my-16 max-w-[1320px] w-10/12 mx-auto">
+        <section className="">
             <SectionTitle
                 subHeading={"Check it out"}
                 heading={"From our menu"}
@@ -34,7 +34,7 @@ const PopularMenu = () => {
                 Item={popularItems}
             ></MenuCategory>
             <div className="flex justify-center">
-                <button className=' btn bg-opacity-0 btn-outline border-0 border-b-2 uppercase text-[#000] mt-10'>view full menu</button>
+                <button className=' btn bg-opacity-0 btn-outline border-0 border-b-2 uppercase text-[#000] '>view full menu</button>
             </div>
         </section>
     );
