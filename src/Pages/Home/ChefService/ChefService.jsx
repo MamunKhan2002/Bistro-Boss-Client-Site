@@ -12,7 +12,7 @@ const ChefService = () => {
 
         >
             <div className='md:py-10 bg-white mx-4 px-2 md:mx-20 md:px-10 lg:px-32 '>
-                <h1 className='text-xl md:text-3xl uppercase my-2'>Bistro Boss</h1>
+                <h1 className='text-xl md:text-3xl uppercase my-2 font-Cinzel font-semibold'>Bistro Boss</h1>
                 <p className='text-base text-center text-balance text-[#333]'>A restaurant is an establishment that prepares and serves food and drinks to customers.Meals are generally served and eaten on the premises, but many restaurants also offer take-out and food delivery services.</p>
             </div>
         </div>

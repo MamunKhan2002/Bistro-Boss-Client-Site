@@ -18,6 +18,7 @@ const Featured = () => {
                     <div className=''>
                         <p className='text-xl font-semibold mb-2'>March 20, 2023 <br />WHERE CAN I GET SOME?</p>
                         <p>Designing a good menu is a vital ingredient for your restaurant’s success. Cleverly placed mouthwatering images and strategically positioned dishes can entice customers toward your most profitable or popular offerings, driving sales and maximizing revenue.</p>
+                        <button className='btn bg-opacity-0 btn-outline border-0 border-b-2 uppercase text-white mt-10'>read more</button>
                     </div>
                 </div>
             </div>

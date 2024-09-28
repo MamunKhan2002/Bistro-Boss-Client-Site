@@ -1,16 +1,18 @@
+import { NavLink } from 'react-router-dom';
 import logo from '../../../assets/logo.png'
+import './NavBar.css'
 
 const Navbar = () => {
 
     const NavOptions = <>
-        <li><a>HOME</a></li>
+        <li><NavLink to='/'>HOME</NavLink></li>
         <li><a>CONTACT US</a></li>
         <li><a>DASHBOARD</a></li>
-        <li><a>OUR MENU</a></li>
+        <li><NavLink to='/menu'>OUR MENU</NavLink></li>
     </>
 
     return (
-        <div className="navbar  fixed z-10 bg-[#000] bg-opacity-45 text-[#FFF]">
+        <div className="navbar font-Inter fixed z-10 bg-[#000] bg-opacity-45 text-[#FFF]">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,14 +37,14 @@ const Navbar = () => {
                 </div>
                 <div className='flex  items-center gap-2 uppercase font-semibold'>
                     <img className='w-16' src={logo} alt="" />
-                    <div className='flex flex-col'>
-                        <a className="text-base md:text-2xl text-yellow-400">Bistro Boss</a>
+                    <div className='flex flex-col font-Cinzel'>
+                        <a className="text-base md:text-2xl font-semibold ">Bistro Boss</a>
                         <span className='text-sm md:text-xl md:font-light tracking-widest '>restaurant</span>
                     </div>
                 </div>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1">
+                <ul id="sidebar" className="flex gap-6 text-sm">
                     {NavOptions}
                 </ul>
             </div>
